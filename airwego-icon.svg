@@ -1,0 +1,51 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5a8df0"/>
+      <stop offset="55%" stop-color="#2a5cc4"/>
+      <stop offset="100%" stop-color="#143a8a"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f4cb0"/>
+      <stop offset="55%" stop-color="#2e62d6"/>
+      <stop offset="100%" stop-color="#5a8df0"/>
+    </linearGradient>
+  </defs>
+  <path d="M 28 130 A 78 78 0 1 1 172 130" fill="none" stroke="#3a4458" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 28 130 Q 36 152 56 162" fill="none" stroke="#3a4458" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 172 130 Q 164 152 144 162" fill="none" stroke="#3a4458" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(32,100)">
+    <path d="M 0 -16 A 16 16 0 0 0 0 16 Z" fill="#f26a1f"/>
+    <g stroke="#f26a1f" stroke-width="3.4" stroke-linecap="round">
+      <line x1="-22" y1="0"  x2="-32" y2="0"/>
+      <line x1="-20" y1="-10" x2="-28" y2="-17"/>
+      <line x1="-20" y1="10"  x2="-28" y2="17"/>
+      <line x1="-14" y1="-18" x2="-19" y2="-28"/>
+      <line x1="-14" y1="18"  x2="-19" y2="28"/>
+    </g>
+  </g>
+  <g transform="translate(168,100)" stroke="#4a5568" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <g>
+      <line x1="-24" y1="0" x2="24" y2="0"/>
+      <line x1="-12" y1="-20.8" x2="12" y2="20.8"/>
+      <line x1="-12" y1="20.8" x2="12" y2="-20.8"/>
+    </g>
+    <g stroke-width="2.2">
+      <path d="M -24 0 L -19 -4 M -24 0 L -19 4"/>
+      <path d="M  24 0 L  19 -4 M  24 0 L  19 4"/>
+      <path d="M -12 -20.8 L -14.5 -15.5 M -12 -20.8 L -8 -19"/>
+      <path d="M  12  20.8 L  14.5  15.5 M  12  20.8 L  8  19"/>
+      <path d="M -12  20.8 L -8  19 M -12  20.8 L -14.5  15.5"/>
+      <path d="M  12 -20.8 L  8 -19 M  12 -20.8 L  14.5 -15.5"/>
+    </g>
+    <g stroke-width="2" opacity=".9">
+      <line x1="-10" y1="0" x2="-6" y2="-3"/>
+      <line x1="-10" y1="0" x2="-6" y2="3"/>
+      <line x1="10" y1="0" x2="6" y2="-3"/>
+      <line x1="10" y1="0" x2="6" y2="3"/>
+    </g>
+  </g>
+  <path d="M 66 152 L 100 46 L 134 152" fill="none" stroke="url(#aGrad)" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 38 118 Q 62 100 88 118 T 138 118 T 178 112" fill="none" stroke="url(#waveGrad)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M 44 138 Q 70 122 100 138 T 162 134" fill="none" stroke="#2e62d6" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+</svg>
